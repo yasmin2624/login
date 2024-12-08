@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn - Mina</title>
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/main.css">  
+</head>
+<body>
+    <div class="container boxShadow signIn w-55 my-5 p-4 text-center">
+        <h1>Smart Login System</h1>
+        <input type="email" id="signInEmail" class="form-control my-3" placeholder="Enter your email">
+        <input type="password" id="signInPassword" class="form-control my-3" placeholder="Enter your password">
+        <p id="incorrect" class="text-danger"></p>
+        <button id="Login" class="btn btn-outline-info w-100">Login</button>
+        <p class="mt-3">Don’t have an account? <a href="signUp.html" class="text-info">Sign Up</a></p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

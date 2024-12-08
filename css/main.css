@@ -1,0 +1,71 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-color: #24353F;
+    color: aliceblue;
+}
+.w-55 {
+   width: 55%;
+}
+.boxShadow {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+h1 {
+    color: #17A2B8;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+}
+
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid #17A2B8;
+    border-radius: .3125rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+.sty-btn {
+    color: #17A2B8;
+    border-color: #17A2B8;
+    font-weight: bold;
+}
+
+.sty-btn:hover {
+    color: white;
+    background-color: #17A2B8;
+}
+.navbar span {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: aliceblue;
+}
+
+.higth {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.higth h2 {
+    color: #17A2B8;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.text-danger {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.text-success {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
